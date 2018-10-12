@@ -2,7 +2,7 @@ class Song
 
   @@all = []
 
-  attr_accessor :title
+  attr_accessor :title, :artist
 
   def initialize(title)
     @title = title
@@ -13,8 +13,6 @@ class Song
     @@all
   end
 
-  def self.song_count
-    @@all.length
-  end
+  
 
 end
