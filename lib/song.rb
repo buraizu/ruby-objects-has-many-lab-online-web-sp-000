@@ -1,6 +1,6 @@
 class Song
 
-  @@songs = []
+  @@all = []
 
   attr_accessor :title
 
