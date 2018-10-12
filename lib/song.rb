@@ -19,6 +19,7 @@ class Song
     else
       self.artist
     end
+  end
 
 
 
