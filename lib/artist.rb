@@ -7,7 +7,7 @@ class Artist
   end
 
   def songs
-    @@Song.songs
+    
   end
 
 end
