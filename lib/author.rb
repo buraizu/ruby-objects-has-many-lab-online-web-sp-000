@@ -17,4 +17,8 @@ class Author
     new_post.author = self
     @posts << new_post
   end
+
+  def author_name(post)
+    post.author.name
+  end
 end
